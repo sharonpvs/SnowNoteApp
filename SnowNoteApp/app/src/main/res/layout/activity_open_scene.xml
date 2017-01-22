@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_open_scene"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.ranko.snownoteapp.OpenScene">
+    <TextView
+            android:id="@+id/cypressLabel"
+            android:text="Cypress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="135dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+    <TextView
+            android:id="@+id/seymourLabel"
+            android:text="Seymour"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignBottom="@+id/cypressLabel"
+            android:layout_toRightOf="@+id/grouseLabel"
+            android:layout_toEndOf="@+id/grouseLabel"
+            android:layout_alignTop="@+id/cypressLabel"/>
+    <TextView
+            android:id="@+id/grouseLabel"
+            android:text="Grouse Mountain"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_below="@+id/seymourLabel"
+            android:layout_toRightOf="@+id/cypressLabel"
+            android:layout_toEndOf="@+id/cypressLabel"
+            android:layout_marginTop="153dp"/>
+
+
+</RelativeLayout>
