@@ -11,11 +11,21 @@
         android:paddingBottom="@dimen/activity_vertical_margin"
         tools:context="com.example.ranko.snownoteapp.MainActivity"
         android:theme="@+id/AppTheme">
-
+    <ImageView
+            android:id="@+id/startlogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:src="@drawable/snownotetop"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"/>
     <FrameLayout
             android:id="@+id/scene_root"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
         <include layout="@layout/activity_open_scene" />
     </FrameLayout>
 </RelativeLayout>
